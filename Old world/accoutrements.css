@@ -1,0 +1,95 @@
+
+	       body {
+	       	font-family: 'Work Sans', sans-serif;
+	       	font-size: 18px;
+	       	letter-spacing: 0px;
+	       	line-height: 27px;
+	       	font-weight: 400;
+	       	color: #111;
+	       	background-color: #fff;
+	       }
+	       
+	       .about {
+	       	position: fixed;
+	       	right: 40px;
+	       	bottom: 40px;
+	       }
+	       
+	       .shop {
+	       	position: fixed;
+	       	right: 40px;
+	       	top: 40px;
+	       }
+	       
+	       .catalogue {
+	       	position: fixed;
+	       	left: 40px;
+	       	top: 40px;
+	       }
+	       
+	       .instagram {
+	       	position: fixed;
+	       	left: 40px;
+	       	bottom: 40px;
+	       }
+	       
+	       a img {
+	         text-decoration: none;
+	       	 border:none;
+	       	 border-bottom-style: none;
+	       }
+	       
+	       a:link {
+	       	text-decoration: none;
+	       	color: #111;
+	       }
+	       
+	       a:visited {
+	       	text-decoration: none;
+	       	color: #111;
+	       }
+	       
+	       a:hover {
+	       	background-color: #111;
+	       	color: #fff;
+	       	text-decoration: none;
+	       }
+	       
+	       a:active {
+	       	text-decoration: none;
+	       	color: #111;
+	       }
+	       
+	       .accoutrements {
+	       	top: 50%;
+	       	margin-top: 50vh;
+	       	transform: translateY(-50%);
+	       	cursor: pointer;
+	       }
+	       
+	       svg.logo {
+	       	max-width: 80%;
+	       	display: block;
+	       	margin: auto;
+	       }
+	       
+	       svg.logo:emptyc {
+	       	top: 50%;
+	       	left: 50%;
+	       	transform: translate(-50%, -50%);
+	       }
+	       
+	       @media screen and (min-width: 1000px) {
+	       	svg.logo {
+	       		max-width: 800px;
+	       		margin: auto;
+	       	}
+	       }
+	       
+	       .text {
+	       	top: 50%;
+	       	margin-top: 50vh;
+	       	transform: translateY(-50%);
+	       	margin-left: 20px;
+	       	margin-right: 20px;
+	       }
